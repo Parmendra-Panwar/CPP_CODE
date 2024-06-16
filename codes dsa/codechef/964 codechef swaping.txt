@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+  int t;
+  cin>>t;
+  while(t--){
+    int a,b;
+    cin>>a>>b;
+    
+    int a1,a2,b1,b2;
+    a1 = a , b1 = b;
+    a2 = a%10*10 , b2 = b%10*10;
+    a  = a/10    , b  = b/10;
+    a2 = a2+a    , b2 = b2+b;
+    
+    a= max(a1,a2), b= min(b1,b2);
+    
+    cout<<(a>b ? "YES" : "NO")<<endl;
+  }
+}

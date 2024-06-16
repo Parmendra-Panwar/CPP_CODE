@@ -1,0 +1,30 @@
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+    while (T--) {
+        int n, l, r;
+        cin >> n >> l >> r;
+        
+        int max_h = 0, min_h = 0, h = 0;
+        
+        for (int i = 0; i < n; ++i) {
+            int num;
+            cin >> num;
+            if (l <= num && num <= r) {
+                h++;
+            } else {
+                h--;
+            }
+            max_h = max(max_h, h);
+            min_h = min(min_h, h);
+        }
+        
+        cout << max_h << " " << min_h << endl;
+    }
+    return 0;
+}
