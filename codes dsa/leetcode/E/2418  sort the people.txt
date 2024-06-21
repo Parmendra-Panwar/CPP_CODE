@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<functional>
 #include<iostream>
 static auto _ = [](){
@@ -20,4 +21,28 @@ public:
         }
         return ans;
     }
+=======
+#include<functional>
+#include<iostream>
+static auto _ = [](){
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return nullptr;
+}();
+class Solution {
+public:
+    vector<string> sortPeople(vector<string>& names, vector<int>& heights) {
+        vector<string> ans;
+        vector<pair<int, string>> v;
+        for (int i = 0; i < names.size(); i++){
+             v.push_back({heights[i], names[i]});
+        }
+        sort(v.rbegin(), v.rend());
+        for (auto & x : v){
+             ans.push_back(x.second);
+        }
+        return ans;
+    }
+>>>>>>> 5ae85b68d0f1ff0c9f4d7fa65a2129faa18e729d
 };

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -26,3 +27,33 @@ int main() {
 	   }
 	}
 }
+=======
+#include <bits/stdc++.h>
+using namespace std;
+
+bool  issubseq(string A, string B){
+  int i=0,j=0;
+  
+  while(i<A.length() && j<B.length()){
+    if(A[i]==B[j]){
+      i++;
+    }
+    j++;
+  }
+  return(i==A.length());
+}
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	   string A,B;
+	   cin>>A>>B;
+	   if(issubseq(A,B) or issubseq(B,A) == 1){
+	     cout<<"YES"<<endl;
+	   }else{
+	     cout<<"NO"<<endl;
+	   }
+	}
+}
+>>>>>>> 5ae85b68d0f1ff0c9f4d7fa65a2129faa18e729d

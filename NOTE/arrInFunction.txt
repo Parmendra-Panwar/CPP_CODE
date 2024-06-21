@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 when we pass the array to the function 
 it do not pass the array to the function 
 it passes the address of array
@@ -8,4 +9,16 @@ then you will see  8byte because
  it show the size of your processring system 
   its like 32 bit or 64 bit which is equal to the 
   8 byte 
+=======
+when we pass the array to the function 
+it do not pass the array to the function 
+it passes the address of array
+
+
+if you check the size of the array in function 
+then you will see  8byte because 
+ it show the size of your processring system 
+  its like 32 bit or 64 bit which is equal to the 
+  8 byte 
+>>>>>>> 5ae85b68d0f1ff0c9f4d7fa65a2129faa18e729d
   

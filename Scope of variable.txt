@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Operator	Name	Associativity
 () [] -> .	Function call, Subscript, Member access	Left
 ++ —	Increment/Decrement	Right
@@ -28,3 +29,35 @@ int main(){
   }
   cout<<num;
 }
+=======
+Operator	Name	Associativity
+() [] -> .	Function call, Subscript, Member access	Left
+++ —	Increment/Decrement	Right
+! ~ – +	Logical/Bitwise NOT, Unary plus/minus	Right
+* / %	Multiplication, Division, Modulus	Left
++ –	Addition, Subtraction	Left
+<< >>	Bitwise shift	Left
+< <= > >=	Relational operators	Left
+== !=	Equality operators	Left
+&	Bitwise AND	Left
+^	Bitwise XOR	Left
+|	Bitwise OR	Left
+&&	Logical AND	Left
+||	Logical OR	Left
+?:	Ternary conditional	Right
+= += -= *= /= %= &= ^= |= <<= >>=	Assignment and compound assignment	Right
+,	Comma	Left
+
+
+/////////////////////////////////////////////////////////////////////////Wrong
+
+int main(){
+  int num = 10;
+  int n = 5;
+  if(n==5){
+    int num = 30;
+    cout<<num;
+  }
+  cout<<num;
+}
+>>>>>>> 5ae85b68d0f1ff0c9f4d7fa65a2129faa18e729d
