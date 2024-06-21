@@ -1,0 +1,69 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution {
+  public:
+    // Function to find minimum number of pages.
+    long long findPages(int n, int arr[], int m) {
+        int start = 0, end = 0 , mid = 0;
+        //when we can't allocate
+        if(m>n){
+            return -1;
+        }
+        //for binary search start and end point 
+        for(int i=0; i<n; i++){
+            start = max(start,arr[i]);
+            end = end + arr[i];
+        }
+        //main code 
+        int ans =0;
+        
+        while(start<=end){
+            mid = start + (end-start)/2;
+            int page = 0 , count = 1; 
+            
+            //simple 
+            //giving page to count numbered student;
+            //if it become more then 
+            //next student and 
+            //resetting page 
+            //and why arr[i];
+            //because , past pages anr given to past student 
+            //and we continue
+            for(int i=0; i<n; i++){
+                page += arr[i];
+                if(page >mid){
+                    count++;
+                    page=arr[i];
+                }
+            }
+            //if we can allocate the we try to go for small
+            //value ....
+            if(count<= m){
+                ans =mid ;
+                end = mid - 1;
+            }else{
+                start = mid +1;
+            }
+        }
+        return ans;
+    }
+};
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        int A[n];
+        for (int i = 0; i < n; i++) {
+            cin >> A[i];
+        }
+        int m;
+        cin >> m;
+        Solution ob;
+        cout << ob.findPages(n, A, m) << endl;
+    }
+    return 0;
+}

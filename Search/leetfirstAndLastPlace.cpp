@@ -19,7 +19,7 @@ int main()
 
   int mid;
   int sta = 0;
-  int end = nums.size() - 1;
+  int end = n - 1;
   int first = -1;
   int last = -1;
 
@@ -40,7 +40,7 @@ int main()
       end = mid - 1;
     }
   }
-  sta = 0, end = nums.size() - 1;
+  sta = 0, end = n - 1;
   while (sta <= end)
   {
     mid = sta + (end - sta) / 2;
