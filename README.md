@@ -6,10 +6,10 @@ Here I will upload my solved and in-progress problems — with details like topi
 
 ## 📘 Problem Tracker
 
-| # | Problem Name | Topic / Category | Approach (3–5 words) | Platform / Link | Status | Level | Notes |
-|---|---------------|------------------|------------------------|------------------|---------|--------|--------|
-| 1 |  |  |  |  | 🟡 In Progress |  |
-| 2 |  |  |  |  | 🟢 Solved |  |
+| # | Problem Name | Topic / Category | Approach (7–10 words) | Platform / Link | Status | Level |
+|---|---------------|------------------|------------------------|------------------|---------|--------|
+| 1 |MejorElem  |Boyer–Moore Majority  | in var stor maj elm freq  | https://www.interviewbit.com/problems/majority-element/ | 🟢 Solved | low |
+| 2 |  |  |  |  |  🟡 In Progress|  |
 | 3 |  |  |  |  | 🔴 Unsolved |  |
 | 4 |  |  |  |  |  |  |
 | 5 |  |  |  |  |  |  |
