@@ -6,8 +6,8 @@ Here I will upload my solved and in-progress problems — with details like topi
 
 ## 📘 Problem Tracker
 
-| # | Problem Name | Topic / Category | Approach (3–5 words) | Platform / Link | Status | Notes |
-|---|---------------|------------------|------------------------|------------------|---------|--------|
+| # | Problem Name | Topic / Category | Approach (3–5 words) | Platform / Link | Status | Level | Notes |
+|---|---------------|------------------|------------------------|------------------|---------|--------|--------|
 | 1 |  |  |  |  | 🟡 In Progress |  |
 | 2 |  |  |  |  | 🟢 Solved |  |
 | 3 |  |  |  |  | 🔴 Unsolved |  |
