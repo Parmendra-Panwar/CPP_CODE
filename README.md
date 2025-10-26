@@ -9,7 +9,7 @@ Here I will upload my solved and in-progress problems — with details like topi
 | # | Problem Name | Topic / Category | Approach (7–10 words) | Platform / Link | Status | Level |
 |---|---------------|------------------|------------------------|------------------|---------|--------|
 | 1 |MejorElem  |Boyer–Moore Majority  | in var stor maj elm freq  | https://www.interviewbit.com/problems/majority-element/ | 🟢 Solved | low |
-| 2 |  |  |  |  |  🟡 In Progress|  |
+| 2 |Fibonacci Number  | recursice relation |--  |https://leetcode.com/problems/fibonacci-number/description/?envType=problem-list-v2&envId=dynamic-programming  | 🟢 Solved | low |
 | 3 |  |  |  |  | 🔴 Unsolved |  |
 | 4 |  |  |  |  |  |  |
 | 5 |  |  |  |  |  |  |
