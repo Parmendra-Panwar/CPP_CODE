@@ -1,0 +1,45 @@
+
+Data structure	Weight (%)	Easy (%)	Medium (%)	Hard (%)
+Arrays	18	30	50	20 ​
+Strings	14	25	55	20 ​
+Hash Table (Map/Set)	12	25	55	20 ​
+Linked List	5	35	45	20 ​
+Stack	4	30	55	15 ​
+Queue / Deque	3	30	55	15 ​
+Heap / Priority Queue	5	20	55	25 ​
+Binary Tree (traversals, construction)	6	20	50	30 ​
+BST (ordered ops, invariants)	4	20	55	25 ​
+Tries (prefix tree)	3	20	50	30 ​
+Graph (adj list/matrix)	6	15	45	40 ​
+Matrix (2D array modeling)	4	25	55	20 ​
+Interval (as a data model)	3	20	60	20 ​
+Disjoint Set (Union‑Find)	2	15	55	30 ​
+Bitset/Bit arrays	2	25	55	20 ​
+De‑dup structures (ordered map/set, LRU cache)	2	20	55	25 ​
+B‑Tree/B‑Heap/Indexed trees (exposure)	1	15	45	40 ​
+Fenwick/Segment Tree (impl as DS)	2	10	45	45 ​
+Geometry structures (sweep‑line helpers)	1	10	50	40 
+
+
+
+Algorithm/pattern	Weight (%)	Easy (%)	Medium (%)	Hard (%)
+Sliding Window	7	20	60	20 ​
+Two Pointers	6	35	50	15 ​
+Binary Search (on value/answer)	8	20	60	20 ​
+Sorting + Custom Comparator	5	30	55	15 ​
+Prefix/Suffix Sums	4	35	55	10 ​
+Greedy (intervals, scheduling)	7	20	55	25 ​
+Dynamic Programming (1D, 2D, subseq)	12	10	40	50 ​
+Graph Search (BFS/DFS)	8	15	50	35 ​
+Shortest Path (Dijkstra/Bellman‑Ford)	3	10	45	45 ​
+Topological Sort (Kahn/DFS)	3	15	60	25 ​
+Union‑Find algorithms (Kruskal, components)	3	15	55	30 ​
+Backtracking (subset/perm, N‑Queens)	6	15	55	30 ​
+Divide & Conquer (merge/quick, selection)	4	20	60	20 ​
+Monotonic Stack/Queue	4	15	55	30 ​
+KMP/Rabin‑Karp/Rolling Hash	3	20	50	30 ​
+Math/Number Theory (GCD, mod exp)	3	35	50	15 ​
+Bit Manipulation (masks, XOR tricks)	4	30	55	15 ​
+Segment/Fenwick Tree (range query/update)	3	10	50	40 ​
+Meet‑in‑the‑Middle	1	5	45	50 ​
+Geometry & Sweep Line	1	10	45	45 

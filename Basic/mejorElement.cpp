@@ -1,4 +1,7 @@
-int Solution::majorityElement(const vector<int> &A) {
+#include <vector>
+using namespace std;
+
+int majorityElement(const vector<int> &A) {
     int n = A.size();
     int kl = 0;
     int el = A[0];
